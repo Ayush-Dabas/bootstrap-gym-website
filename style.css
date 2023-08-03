@@ -18,9 +18,40 @@ header a{
     color: white;
     text-decoration: none;
     left: 50dvw;
+    font-size: 2dvh;
+}
+
+.navbar-item{
+    border: 2px solid white;
+    min-height: 3vh;
+    width: 100%;
+}
+
+#welcome{
+    max-width: fit-content;
     font-size: 20px;
 }
 
-header button{
-    border: 0px;
+#welcome h4{
+    max-width: fit-content;
+    align-items: center;
+    position: relative;
+    left: 42vw;
+    color: rgb(203, 6, 6);
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(174, 174, 174);
+}
+
+#welcome span{
+    position: relative;
+    left: 36vw;
+}
+
+.row-1{
+    display: flex;
+    
+}
+
+.row-1 img{
+    max-width: 10vw;
 }
